@@ -50,7 +50,7 @@ export const ReviewsPage: React.FC = () => {
                 </span>
               </div>
               <p className="text-xs sm:text-sm text-[#686A65] leading-relaxed">
-                65 reviews reported by the clinic. In adherence to strict medical reporting integrity, no aggregate star rating is displayed until officially certified from a verified public review registry.
+                150+ reviews reported by the clinic. In adherence to strict medical reporting integrity, no aggregate star rating is displayed until officially certified from a verified public review registry.
               </p>
             </div>
 
