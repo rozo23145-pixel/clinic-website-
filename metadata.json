@@ -1,6 +1,6 @@
 {
   "name": "Om Multispeciality Dental Clinic",
-  "description": "Thoughtful, patient-centered dental care led by Dr. Dipali Modle-Senapati. Official clinic presentation and contact platform.",
+  "description": "Thoughtful, patient-centered dental care led by Dr. Dipali Modle. Official clinic presentation and contact platform.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

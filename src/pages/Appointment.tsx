@@ -20,7 +20,7 @@ export const AppointmentPage: React.FC = () => {
             Book an Appointment
           </h1>
           <p className="text-base sm:text-lg text-[#686A65] max-w-2xl leading-relaxed">
-            Connect directly with Om Multispeciality Dental Clinic to enquire about appointment availability and schedule your consultation with Dr. Dipali Modle-Senapati.
+            Connect directly with Om Multispeciality Dental Clinic to enquire about appointment availability and schedule your consultation with Dr. Dipali Modle.
           </p>
         </div>
       </section>

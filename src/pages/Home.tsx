@@ -55,7 +55,7 @@ export const HomePage: React.FC = () => {
               <div className="pt-6 border-t border-[#E8E5DE] flex flex-wrap items-center gap-6 text-xs text-[#686A65]">
                 <div className="flex items-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-[#8B6D35]" aria-hidden="true" />
-                  <span>Dr. Dipali Modle-Senapati</span>
+                  <span>Dr. Dipali Modle</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MessageSquare className="w-4 h-4 text-[#8B6D35]" aria-hidden="true" />
@@ -179,7 +179,7 @@ export const HomePage: React.FC = () => {
               </h2>
 
               <p className="text-base text-[#686A65] leading-relaxed">
-                As the leading dental practitioner at Om Multispeciality Dental Clinic, Dr. Dipali Modle-Senapati is committed to attentive clinical examinations, thorough explanation of treatment options, and patient-centered oral healthcare.
+                As the leading dental practitioner at Om Multispeciality Dental Clinic, Dr. Dipali Modle is committed to attentive clinical examinations, thorough explanation of treatment options, and patient-centered oral healthcare.
               </p>
 
               <div className="space-y-3 pt-2 text-sm text-[#343530]">
