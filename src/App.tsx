@@ -20,20 +20,20 @@ function AppContent() {
   // Dynamic Document Title and SEO Metadata Management
   useEffect(() => {
     let title = `${clinicConfig.name} | ${clinicConfig.doctorName}`;
-    let description = 'Thoughtful, patient-centered dental care led by Dr. Diplai Modle-Senapati. Official clinic presentation and contact platform.';
+    let description = 'Thoughtful, patient-centered dental care led by Dr. Dipali Modle-Senapati. Official clinic presentation and contact platform.';
 
     switch (currentPath) {
       case '/':
         title = `${clinicConfig.name} | ${clinicConfig.doctorName}`;
-        description = 'Thoughtful, patient-centered dental care led by Dr. Diplai Modle-Senapati. Official clinic presentation and contact platform.';
+        description = 'Thoughtful, patient-centered dental care led by Dr. Dipali Modle-Senapati. Official clinic presentation and contact platform.';
         break;
       case '/about':
-        title = `About Dr. Diplai Modle-Senapati | ${clinicConfig.name}`;
-        description = 'Learn about Dr. Diplai Modle-Senapati and the patient-first clinical approach at Om Multispeciality Dental Clinic.';
+        title = `About Dr. Dipali Modle-Senapati | ${clinicConfig.name}`;
+        description = 'Learn about Dr. Dipali Modle-Senapati and the patient-first clinical approach at Om Multispeciality Dental Clinic.';
         break;
       case '/reviews':
         title = `Patient Reviews (${clinicConfig.reportedReviewCount}) | ${clinicConfig.name}`;
-        description = `Explore patient reviews and community feedback for Om Multispeciality Dental Clinic and Dr. Diplai Modle-Senapati.`;
+        description = `Explore patient reviews and community feedback for Om Multispeciality Dental Clinic and Dr. Dipali Modle-Senapati.`;
         break;
       case '/appointment':
         title = `Book an Appointment | ${clinicConfig.name}`;

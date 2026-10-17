@@ -20,7 +20,7 @@ export const AboutPage: React.FC = () => {
             className="text-3xl sm:text-4xl lg:text-5xl font-serif text-[#20211F] font-normal tracking-tight"
             style={{ textWrap: 'balance' }}
           >
-            Meet Dr. Diplai Modle-Senapati & Om Multispeciality Dental Clinic
+            Meet Dr. Dipali Modle-Senapati & Om Multispeciality Dental Clinic
           </h1>
           <p className="text-base sm:text-lg text-[#686A65] max-w-2xl leading-relaxed">
             A dedicated dental practice centered on personal communication, patient reassurance, and attentive clinical care.
@@ -63,7 +63,7 @@ export const AboutPage: React.FC = () => {
                 {clinicConfig.doctorName}
               </h2>
               <p className="text-base sm:text-lg text-[#686A65] leading-relaxed">
-                Dr. Diplai Modle-Senapati guides Om Multispeciality Dental Clinic with an emphasis on individualized attention. We believe visiting the dentist should be an unhurried, reassuring experience where patients feel heard and respected at every step.
+                Dr. Dipali Modle-Senapati guides Om Multispeciality Dental Clinic with an emphasis on individualized attention. We believe visiting the dentist should be an unhurried, reassuring experience where patients feel heard and respected at every step.
               </p>
             </div>
 
@@ -106,7 +106,7 @@ export const AboutPage: React.FC = () => {
               </p>
               <div className="inline-flex items-center gap-2 text-xs text-[#8B6D35] font-medium">
                 <CheckCircle2 className="w-4 h-4 shrink-0" />
-                <span>Verified Practitioner: Dr. Diplai Modle-Senapati</span>
+                <span>Verified Practitioner: Dr. Dipali Modle-Senapati</span>
               </div>
             </div>
           </div>
@@ -177,7 +177,7 @@ export const AboutPage: React.FC = () => {
               Have a question or need an appointment?
             </h3>
             <p className="text-sm text-[#E8E5DE]/80 leading-relaxed">
-              We look forward to welcoming you to Om Multispeciality Dental Clinic. Contact us directly to arrange a consultation with Dr. Diplai Modle-Senapati.
+              We look forward to welcoming you to Om Multispeciality Dental Clinic. Contact us directly to arrange a consultation with Dr. Dipali Modle-Senapati.
             </p>
           </div>
 

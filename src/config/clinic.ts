@@ -45,11 +45,12 @@ export interface ClinicConfig {
   email: string;
   /** Default enquiry message for patient-initiated WhatsApp chat */
   whatsappPrefillMessage: string;
+  mapsUrl: string;
 }
 
 export const clinicConfig: ClinicConfig = {
   name: 'Om Multispeciality Dental Clinic',
-  doctorName: 'Dr. Diplai Modle-Senapati',
+  doctorName: 'Dr. Dipali Modle-Senapati',
   // Verified phone number to be configured by the clinic:
   phoneNumber: '',
   // WhatsApp number placeholder strictly maintained until verified:
@@ -61,7 +62,8 @@ export const clinicConfig: ClinicConfig = {
   // Verified review destination URL:
   reviewsUrl: '',
   // Verified address to be entered when supplied:
-  address: '',
+  address: 'Shop no.2, Shivkripa HCS, opposite Patanjali shop, near kabutarkhana, Misquita Nagar, Krishna Colony, Dahisar East, Mumbai, Maharashtra 400068',
+  mapsUrl: 'https://maps.app.goo.gl/PR8qBctnmfGQZemF9',
   // Verified hours to be configured when confirmed:
   openingHours: null,
   // Verified email to be configured:

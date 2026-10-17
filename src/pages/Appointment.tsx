@@ -20,7 +20,7 @@ export const AppointmentPage: React.FC = () => {
             Book an Appointment
           </h1>
           <p className="text-base sm:text-lg text-[#686A65] max-w-2xl leading-relaxed">
-            Connect directly with Om Multispeciality Dental Clinic to enquire about appointment availability and schedule your consultation with Dr. Diplai Modle-Senapati.
+            Connect directly with Om Multispeciality Dental Clinic to enquire about appointment availability and schedule your consultation with Dr. Dipali Modle-Senapati.
           </p>
         </div>
       </section>
@@ -53,7 +53,7 @@ export const AppointmentPage: React.FC = () => {
             <div className="p-5 rounded-2xl bg-[#F8F7F4] border border-[#E8E5DE] space-y-2">
               <h4 className="font-semibold text-[#20211F]">First-Time Consultations</h4>
               <p className="leading-relaxed">
-                If this is your first visit, please let us know about any specific dental symptoms or questions so Dr. Diplai Modle-Senapati can prepare appropriately.
+                If this is your first visit, please let us know about any specific dental symptoms or questions so we can prepare appropriately.
               </p>
             </div>
           </div>
@@ -65,16 +65,15 @@ export const AppointmentPage: React.FC = () => {
             Location & Practice Hours
           </h4>
 
-          {clinicConfig.address ? (
-            <div className="flex items-start gap-2.5 text-sm text-[#343530]">
-              <MapPin className="w-4 h-4 text-[#8B6D35] shrink-0 mt-0.5" />
-              <span>{clinicConfig.address}</span>
-            </div>
-          ) : (
-            <p className="text-xs sm:text-sm text-[#686A65] leading-relaxed">
-              Physical address details will appear here once officially confirmed by the clinic. Please confirm location directions directly with clinic staff during your telephone or WhatsApp enquiry.
-            </p>
-          )}
+          <div className="flex items-start gap-2.5 text-sm text-[#343530]">
+            <MapPin className="w-4 h-4 text-[#8B6D35] shrink-0 mt-0.5" />
+            <span>
+              {clinicConfig.address}
+              <a href={clinicConfig.mapsUrl} target="_blank" rel="noopener noreferrer" className="block mt-1 text-[#8B6D35] underline">
+                View on Google Maps
+              </a>
+            </span>
+          </div>
 
           {clinicConfig.openingHours ? (
             <div className="space-y-1 pt-2">

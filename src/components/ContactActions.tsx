@@ -41,9 +41,6 @@ export const ContactActions: React.FC<ContactActionsProps> = ({
               <div className="w-12 h-12 rounded-xl bg-[#F8F7F4] border border-[#E8E5DE] flex items-center justify-center text-[#8B6D35]">
                 <Phone className="w-6 h-6" aria-hidden="true" />
               </div>
-              <span className="text-xs font-semibold tracking-wider uppercase text-[#8B6D35]">
-                Option 01
-              </span>
             </div>
 
             <h3 className="text-xl font-serif text-[#20211F] font-medium">Direct Telephone Call</h3>
@@ -95,9 +92,6 @@ export const ContactActions: React.FC<ContactActionsProps> = ({
               <div className="w-12 h-12 rounded-xl bg-[#F8F7F4] border border-[#E8E5DE] flex items-center justify-center text-[#8B6D35]">
                 <MessageCircle className="w-6 h-6" aria-hidden="true" />
               </div>
-              <span className="text-xs font-semibold tracking-wider uppercase text-[#8B6D35]">
-                Option 02
-              </span>
             </div>
 
             <h3 className="text-xl font-serif text-[#20211F] font-medium">WhatsApp Message</h3>
