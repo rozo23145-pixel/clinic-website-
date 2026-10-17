@@ -52,9 +52,9 @@ export const clinicConfig: ClinicConfig = {
   name: 'Om Multispeciality Dental Clinic',
   doctorName: 'Dr. Dipali Modle-Senapati',
   // Verified phone number to be configured by the clinic:
-  phoneNumber: '',
+  phoneNumber: '+919619695635',
   // WhatsApp number placeholder strictly maintained until verified:
-  whatsappNumber: 'WHATSAPP_NUMBER_PLACEHOLDER',
+  whatsappNumber: '919619695635',
   // Reported reviews count as provided by the clinic:
   reportedReviewCount: 65,
   // Not fabricated - kept null until an official source rating is supplied:
