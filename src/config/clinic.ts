@@ -56,7 +56,7 @@ export const clinicConfig: ClinicConfig = {
   // WhatsApp number placeholder strictly maintained until verified:
   whatsappNumber: '919619695635',
   // Reported reviews count as provided by the clinic:
-  reportedReviewCount: '150+',
+  reportedReviewCount: 70,
   // Not fabricated - kept null until an official source rating is supplied:
   aggregateRating: null,
   // Verified review destination URL:
